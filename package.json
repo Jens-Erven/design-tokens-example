@@ -1,0 +1,48 @@
+{
+  "name": "craftzing-design-tokens-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:app": "vite build",
+    "preview": "vite preview",
+    "prebuild": "node ./lib/prebuild.js",
+    "build": "pnpm run prebuild && pnpm run build:figma:variables && pnpm run build:tailwind",
+    "build:token:studio": "node ./lib/index.js --source=./token-studio/tokens-flattened.json --output=./dist/token-studio",
+    "build:figma:variables": "node ./lib/build-multi-themes.js",
+    "build:tailwind": "node ./lib/build-tailwind-themes.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.14.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^7.2.1",
+    "prettier": "^3.4.2",
+    "style-dictionary": "^4.2.0",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/material": "^6.1.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

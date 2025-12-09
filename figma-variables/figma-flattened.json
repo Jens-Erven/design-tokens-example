@@ -1,0 +1,692 @@
+{
+  "theme-ocean": {
+    "light": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#0077be",
+        "$collectionName": "theme-ocean"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-ocean"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#00a896",
+        "$collectionName": "theme-ocean"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-ocean"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f0f8ff",
+        "$collectionName": "theme-ocean"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-ocean"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1a1a1a",
+        "$collectionName": "theme-ocean"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#555555",
+        "$collectionName": "theme-ocean"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#d32f2f",
+        "$collectionName": "theme-ocean"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ed6c02",
+        "$collectionName": "theme-ocean"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#0288d1",
+        "$collectionName": "theme-ocean"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#2e7d32",
+        "$collectionName": "theme-ocean"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-ocean"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-ocean"
+      }
+    },
+    "dark": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#42a5f5",
+        "$collectionName": "theme-ocean"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#000000",
+        "$collectionName": "theme-ocean"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#26d4c1",
+        "$collectionName": "theme-ocean"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#000000",
+        "$collectionName": "theme-ocean"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#0a1929",
+        "$collectionName": "theme-ocean"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#132f4c",
+        "$collectionName": "theme-ocean"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-ocean"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#b2bac2",
+        "$collectionName": "theme-ocean"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f44336",
+        "$collectionName": "theme-ocean"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffa726",
+        "$collectionName": "theme-ocean"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#29b6f6",
+        "$collectionName": "theme-ocean"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#66bb6a",
+        "$collectionName": "theme-ocean"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-ocean"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-ocean"
+      }
+    }
+  },
+  "theme-sunset": {
+    "light": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ff6b35",
+        "$collectionName": "theme-sunset"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-sunset"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f7931e",
+        "$collectionName": "theme-sunset"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-sunset"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#fff8f0",
+        "$collectionName": "theme-sunset"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-sunset"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#2d1b00",
+        "$collectionName": "theme-sunset"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#6b4423",
+        "$collectionName": "theme-sunset"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#c62828",
+        "$collectionName": "theme-sunset"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ef6c00",
+        "$collectionName": "theme-sunset"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#0277bd",
+        "$collectionName": "theme-sunset"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#388e3c",
+        "$collectionName": "theme-sunset"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-sunset"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 12,
+        "$collectionName": "theme-sunset"
+      }
+    },
+    "dark": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ff8c61",
+        "$collectionName": "theme-sunset"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1a0800",
+        "$collectionName": "theme-sunset"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffb84d",
+        "$collectionName": "theme-sunset"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1a0f00",
+        "$collectionName": "theme-sunset"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1a0f00",
+        "$collectionName": "theme-sunset"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#2d1b00",
+        "$collectionName": "theme-sunset"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#fff8f0",
+        "$collectionName": "theme-sunset"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#d4b896",
+        "$collectionName": "theme-sunset"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ef5350",
+        "$collectionName": "theme-sunset"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ff9800",
+        "$collectionName": "theme-sunset"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#03a9f4",
+        "$collectionName": "theme-sunset"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#4caf50",
+        "$collectionName": "theme-sunset"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-sunset"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 12,
+        "$collectionName": "theme-sunset"
+      }
+    }
+  },
+  "theme-forest": {
+    "light": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#2d6a4f",
+        "$collectionName": "theme-forest"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-forest"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#52b788",
+        "$collectionName": "theme-forest"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-forest"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f1f8f4",
+        "$collectionName": "theme-forest"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ffffff",
+        "$collectionName": "theme-forest"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1b4332",
+        "$collectionName": "theme-forest"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#40916c",
+        "$collectionName": "theme-forest"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#c62828",
+        "$collectionName": "theme-forest"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f57c00",
+        "$collectionName": "theme-forest"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#0288d1",
+        "$collectionName": "theme-forest"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#2e7d32",
+        "$collectionName": "theme-forest"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-forest"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 4,
+        "$collectionName": "theme-forest"
+      }
+    },
+    "dark": {
+      "primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#74c69d",
+        "$collectionName": "theme-forest"
+      },
+      "primary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#081c15",
+        "$collectionName": "theme-forest"
+      },
+      "secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#95d5b2",
+        "$collectionName": "theme-forest"
+      },
+      "secondary-contrast": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#081c15",
+        "$collectionName": "theme-forest"
+      },
+      "background-default": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#081c15",
+        "$collectionName": "theme-forest"
+      },
+      "background-paper": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#1b4332",
+        "$collectionName": "theme-forest"
+      },
+      "text-primary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#d8f3dc",
+        "$collectionName": "theme-forest"
+      },
+      "text-secondary": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#95d5b2",
+        "$collectionName": "theme-forest"
+      },
+      "error": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ef5350",
+        "$collectionName": "theme-forest"
+      },
+      "warning": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#ff9800",
+        "$collectionName": "theme-forest"
+      },
+      "info": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#29b6f6",
+        "$collectionName": "theme-forest"
+      },
+      "success": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#66bb6a",
+        "$collectionName": "theme-forest"
+      },
+      "spacing-unit": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 8,
+        "$collectionName": "theme-forest"
+      },
+      "border-radius": {
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "dimension",
+        "$value": 4,
+        "$collectionName": "theme-forest"
+      }
+    }
+  }
+}

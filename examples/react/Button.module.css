@@ -1,0 +1,6 @@
+.button {
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  border: none;
+}

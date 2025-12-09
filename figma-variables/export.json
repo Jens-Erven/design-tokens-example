@@ -1,0 +1,452 @@
+[
+  {
+    "theme-ocean": {
+      "modes": {
+        "light": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#0077be"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#00a896"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#f0f8ff"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1a1a1a"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#555555"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#d32f2f"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ed6c02"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#0288d1"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#2e7d32"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          }
+        },
+        "dark": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#42a5f5"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#26d4c1"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#0a1929"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#132f4c"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#b2bac2"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#f44336"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffa726"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#29b6f6"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#66bb6a"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          }
+        }
+      }
+    }
+  },
+  {
+    "theme-sunset": {
+      "modes": {
+        "light": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ff6b35"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#f7931e"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#fff8f0"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#2d1b00"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#6b4423"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#c62828"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ef6c00"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#0277bd"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#388e3c"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 12
+          }
+        },
+        "dark": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ff8c61"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1a0800"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffb84d"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1a0f00"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1a0f00"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#2d1b00"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#fff8f0"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#d4b896"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ef5350"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ff9800"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#03a9f4"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#4caf50"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 12
+          }
+        }
+      }
+    }
+  },
+  {
+    "theme-forest": {
+      "modes": {
+        "light": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#2d6a4f"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#52b788"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#f1f8f4"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1b4332"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#40916c"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#c62828"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#f57c00"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#0288d1"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#2e7d32"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 4
+          }
+        },
+        "dark": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#74c69d"
+          },
+          "primary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#081c15"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#95d5b2"
+          },
+          "secondary-contrast": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#081c15"
+          },
+          "background-default": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#081c15"
+          },
+          "background-paper": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1b4332"
+          },
+          "text-primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#d8f3dc"
+          },
+          "text-secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#95d5b2"
+          },
+          "error": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ef5350"
+          },
+          "warning": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ff9800"
+          },
+          "info": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#29b6f6"
+          },
+          "success": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#66bb6a"
+          },
+          "spacing-unit": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 8
+          },
+          "border-radius": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "float",
+            "$value": 4
+          }
+        }
+      }
+    }
+  }
+]

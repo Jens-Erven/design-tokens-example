@@ -1,0 +1,139 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'css' tokens 1`] = `
+":root {
+  --blue: #1a297c;
+  --pink: #ef268b;
+  --white: #ffffff;
+  --black: #000000;
+  --small: 0.3125rem;
+  --large: 0.625rem;
+  --button-background: var(--blue);
+  --button-foreground: var(--white);
+  --button-padding-horizontal: var(--large);
+  --button-padding-vertical: var(--small);
+}
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'js' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const blue = "#1a297c";
+export const pink = "#ef268b";
+export const white = "#ffffff";
+export const black = "#000000";
+export const small = "5px";
+export const large = "10px";
+export const buttonBackground = "#1a297c";
+export const buttonForeground = "#ffffff";
+export const buttonPaddingHorizontal = "10px";
+export const buttonPaddingVertical = "5px";
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'scss' tokens 1`] = `
+"
+// Do not edit directly, this file was auto-generated.
+
+$blue: #1a297c;
+$pink: #ef268b;
+$white: #ffffff;
+$black: #000000;
+$small: 0.3125rem;
+$large: 0.625rem;
+$button-background: #1a297c;
+$button-foreground: #ffffff;
+$button-padding-horizontal: 0.625rem;
+$button-padding-vertical: 0.3125rem;
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'ts' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const blue: string;
+export const pink: string;
+export const white: string;
+export const black: string;
+export const small: string;
+export const large: string;
+export const buttonBackground: string;
+export const buttonForeground: string;
+export const buttonPaddingHorizontal: string;
+export const buttonPaddingVertical: string;
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'css' tokens 1`] = `
+":root {
+  --blue: #162a99;
+  --pink: #ef268b;
+  --white: #ffffff;
+  --black: #000000;
+  --large: 0.625rem;
+  --small: 0.3125rem;
+  --button-background: var(--blue);
+  --button-padding-horizontal: var(--large);
+  --button-padding-vertical: var(--small);
+  --button-foreground: var(--white);
+}
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'js' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const blue = "#162a99";
+export const pink = "#ef268b";
+export const white = "#ffffff";
+export const black = "#000000";
+export const large = "10px";
+export const small = "5px";
+export const buttonBackground = "#162a99";
+export const buttonPaddingHorizontal = "10px";
+export const buttonPaddingVertical = "5px";
+export const buttonForeground = "#ffffff";
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'scss' tokens 1`] = `
+"
+// Do not edit directly, this file was auto-generated.
+
+$blue: #162a99;
+$pink: #ef268b;
+$white: #ffffff;
+$black: #000000;
+$large: 0.625rem;
+$small: 0.3125rem;
+$button-background: #162a99;
+$button-padding-horizontal: 0.625rem;
+$button-padding-vertical: 0.3125rem;
+$button-foreground: #ffffff;
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'ts' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const blue: string;
+export const pink: string;
+export const white: string;
+export const black: string;
+export const large: string;
+export const small: string;
+export const buttonBackground: string;
+export const buttonPaddingHorizontal: string;
+export const buttonPaddingVertical: string;
+export const buttonForeground: string;
+"
+`;

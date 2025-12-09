@@ -1,0 +1,49 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build-and-test:
+    name: Build and Test Project
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js 20
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # Step 3: Install pnpm
+      - name: Install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
+      # Step 4: Verify pnpm installation
+      - name: Verify pnpm installation
+        run: pnpm --version
+
+      # Step 5: Install dependencies
+      - name: Install dependencies
+        run: pnpm install
+
+      # Step 6: Build the project
+      - name: Build project
+        run: pnpm build
+        env:
+          NODE_ENV: production
+
+      # Step 7: Run tests
+      - name: Run tests
+        run: pnpm test
