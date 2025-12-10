@@ -1,0 +1,5 @@
+/* Configure CSS layer order - MUST come before Tailwind import */
+@layer theme, base, mui, components, utilities;
+
+/* Import Tailwind CSS */
+@import './dist/figma-variables/tailwind/app.css';

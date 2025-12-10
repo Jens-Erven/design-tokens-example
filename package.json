@@ -22,6 +22,7 @@
   "license": "ISC",
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
     "@types/node": "^22.10.1",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.16.0",
@@ -32,6 +33,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "prettier": "^3.4.2",
     "style-dictionary": "^4.2.0",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vitest": "^2.1.8"

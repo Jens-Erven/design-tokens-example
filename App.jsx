@@ -5,11 +5,12 @@ import {
   CardContent,
   Chip,
   Container,
+  Input,
   Paper,
   Stack,
   ToggleButton,
   ToggleButtonGroup,
-  Typography
+  Typography,
 } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
@@ -65,6 +66,16 @@ function App() {
                 gap: 2,
               }}
             >
+              <Input
+                id="component-outlined"
+                placeholder="Type your name"
+                className="bg-red-500"
+                slotProps={{
+                  input: {
+                    className: 'placeholder:text-white/70',
+                  },
+                }}
+              />
               <Box>
                 <Typography variant="h4" component="h1" gutterBottom>
                   Multi-Theme Material-UI Demo
@@ -87,9 +98,9 @@ function App() {
                   <ToggleButton value="forest">Forest</ToggleButton>
                 </ToggleButtonGroup>
 
-                <Button 
-                  onClick={toggleMode} 
-                  variant="outlined" 
+                <Button
+                  onClick={toggleMode}
+                  variant="outlined"
                   size="small"
                   sx={{ minWidth: '100px' }}
                 >
@@ -110,8 +121,8 @@ function App() {
                   />
                 </Stack>
                 <Typography variant="body2" color="text.secondary">
-                  Switch between themes and modes to see the design tokens in action.
-                  Each theme has been generated from Figma variables.
+                  Switch between themes and modes to see the design tokens in
+                  action. Each theme has been generated from Figma variables.
                 </Typography>
               </CardContent>
             </Card>
@@ -203,7 +214,8 @@ function App() {
                     Ocean Card
                   </Typography>
                   <Typography variant="body2">
-                    Card with themed spacing and border radius from design tokens.
+                    Card with themed spacing and border radius from design
+                    tokens.
                   </Typography>
                 </CardContent>
               </Card>
@@ -245,8 +257,8 @@ function App() {
                 Custom Component
               </Typography>
               <Typography variant="body1">
-                This box uses the primary color and its contrast text from the current
-                theme's design tokens.
+                This box uses the primary color and its contrast text from the
+                current theme's design tokens.
               </Typography>
             </Box>
           </Stack>
