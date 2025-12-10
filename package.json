@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "prebuild": "node ./lib/prebuild.js",
     "build": "pnpm run prebuild && pnpm run build:figma:variables && pnpm run build:tailwind",
-    "build:token:studio": "node ./lib/index.js --source=./token-studio/tokens-flattened.json --output=./dist/token-studio",
     "build:figma:variables": "node ./lib/build-multi-themes.js",
     "build:tailwind": "node ./lib/build-tailwind-themes.js",
     "lint": "eslint .",

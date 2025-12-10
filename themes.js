@@ -1,10 +1,10 @@
 import { createTheme } from '@mui/material/styles';
-import * as forestDark from './dist/figma-variables/theme-forest/dark/js/tokens.js';
-import * as forestLight from './dist/figma-variables/theme-forest/light/js/tokens.js';
-import * as oceanDark from './dist/figma-variables/theme-ocean/dark/js/tokens.js';
-import * as oceanLight from './dist/figma-variables/theme-ocean/light/js/tokens.js';
-import * as sunsetDark from './dist/figma-variables/theme-sunset/dark/js/tokens.js';
-import * as sunsetLight from './dist/figma-variables/theme-sunset/light/js/tokens.js';
+import * as forestDark from './dist/figma-variables/theme-forest/dark/ts/tokens.ts';
+import * as forestLight from './dist/figma-variables/theme-forest/light/ts/tokens.ts';
+import * as oceanDark from './dist/figma-variables/theme-ocean/dark/ts/tokens.ts';
+import * as oceanLight from './dist/figma-variables/theme-ocean/light/ts/tokens.ts';
+import * as sunsetDark from './dist/figma-variables/theme-sunset/dark/ts/tokens.ts';
+import * as sunsetLight from './dist/figma-variables/theme-sunset/light/ts/tokens.ts';
 
 /**
  * Create a Material-UI theme from design tokens

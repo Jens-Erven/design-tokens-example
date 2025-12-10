@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-import * as tokens from './dist/figma-variables/js/tokens.js';
+import * as tokens from './dist/figma-variables/ts/tokens.ts';
 
 /**
  * Material-UI theme configured with design tokens
