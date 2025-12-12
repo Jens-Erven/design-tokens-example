@@ -20,6 +20,7 @@ import themes from './themes';
 /**
  * App component with theme switcher
  * Demonstrates all 3 themes (Ocean, Sunset, Forest) with light/dark modes
+ * Material-UI components styled with custom Tailwind theme classes
  */
 function App() {
   const [selectedTheme, setSelectedTheme] = useState('ocean');
@@ -28,6 +29,13 @@ function App() {
   // Get current theme based on selection
   const currentTheme = useMemo(() => {
     return themes[selectedTheme][mode];
+  }, [selectedTheme, mode]);
+
+  // Apply theme class to document root for Tailwind
+  useMemo(() => {
+    const themeClass = `theme-theme-${selectedTheme}`;
+    const darkClass = mode === 'dark' ? 'dark' : '';
+    document.documentElement.className = `${themeClass} ${darkClass}`.trim();
   }, [selectedTheme, mode]);
 
   const handleThemeChange = (event, newTheme) => {
@@ -66,13 +74,13 @@ function App() {
                 gap: 2,
               }}
             >
+              {/* Demo: Material-UI Input with custom Tailwind theme classes */}
               <Input
                 id="component-outlined"
-                placeholder="Type your name"
-                className="bg-red-500"
+                placeholder="Try theme-aware styling"
                 slotProps={{
                   input: {
-                    className: 'placeholder:text-white/70',
+                    className: 'bg-primary text-primary',
                   },
                 }}
               />
@@ -146,6 +154,66 @@ function App() {
                   <Button variant="text" color="secondary">
                     Text Secondary
                   </Button>
+                </Stack>
+              </CardContent>
+            </Card>
+
+            {/* Tailwind Theme Classes Demo */}
+            <Card>
+              <CardContent>
+                <Typography variant="h6" gutterBottom>
+                  Material-UI + Tailwind Theme Classes
+                </Typography>
+                <Typography variant="body2" color="text.secondary" mb={2}>
+                  These components use custom Tailwind classes that adapt to
+                  your theme. Try switching themes to see them update!
+                </Typography>
+                <Stack spacing={2}>
+                  {/* Button with Tailwind classes */}
+                  <Button
+                    variant="text"
+                    className="bg-primary text-primary-contrast hover:bg-secondary px-unit py-unit rounded"
+                  >
+                    Custom Tailwind Styled Button
+                  </Button>
+
+                  {/* Box with Tailwind classes */}
+                  <Box className="bg-info text-primary-contrast p-unit rounded">
+                    <Typography>
+                      Box with theme-aware Tailwind classes
+                    </Typography>
+                  </Box>
+
+                  {/* Paper with Tailwind classes */}
+                  <Paper
+                    className="bg-paper border-primary p-unit rounded"
+                    elevation={0}
+                    sx={{ border: 1 }}
+                  >
+                    <Typography className="text-primary">
+                      Paper component with custom border and background
+                    </Typography>
+                  </Paper>
+
+                  {/* Stack of Chips with Tailwind classes */}
+                  <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
+                    <Chip
+                      label="Primary"
+                      className="bg-primary text-primary-contrast"
+                    />
+                    <Chip
+                      label="Secondary"
+                      className="bg-secondary text-secondary-contrast"
+                    />
+                    <Chip
+                      label="Error"
+                      className="bg-error text-primary-contrast"
+                    />
+                    <Chip
+                      label="Success"
+                      className="bg-success text-primary-contrast"
+                    />
+                  </Stack>
                 </Stack>
               </CardContent>
             </Card>

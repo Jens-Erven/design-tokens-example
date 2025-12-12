@@ -78,7 +78,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ed6c02",
+        "$value": "#f57c00",
         "$collectionName": "theme-ocean"
       },
       "info": {
@@ -94,7 +94,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#2e7d32",
+        "$value": "#388e3c",
         "$collectionName": "theme-ocean"
       },
       "spacing-unit": {
@@ -110,7 +110,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 4,
         "$collectionName": "theme-ocean"
       }
     },
@@ -120,7 +120,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#42a5f5",
+        "$value": "#4db8ff",
         "$collectionName": "theme-ocean"
       },
       "primary-contrast": {
@@ -136,7 +136,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#26d4c1",
+        "$value": "#5cead1",
         "$collectionName": "theme-ocean"
       },
       "secondary-contrast": {
@@ -168,7 +168,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ffffff",
+        "$value": "#e3f2fd",
         "$collectionName": "theme-ocean"
       },
       "text-secondary": {
@@ -176,7 +176,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#b2bac2",
+        "$value": "#b0bec5",
         "$collectionName": "theme-ocean"
       },
       "error": {
@@ -224,7 +224,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 4,
         "$collectionName": "theme-ocean"
       }
     }
@@ -260,7 +260,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ffffff",
+        "$value": "#000000",
         "$collectionName": "theme-sunset"
       },
       "background-default": {
@@ -268,7 +268,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#fff8f0",
+        "$value": "#fff5f0",
         "$collectionName": "theme-sunset"
       },
       "background-paper": {
@@ -284,7 +284,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#2d1b00",
+        "$value": "#2d1b0f",
         "$collectionName": "theme-sunset"
       },
       "text-secondary": {
@@ -292,7 +292,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#6b4423",
+        "$value": "#6d4c41",
         "$collectionName": "theme-sunset"
       },
       "error": {
@@ -308,7 +308,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ef6c00",
+        "$value": "#f9a825",
         "$collectionName": "theme-sunset"
       },
       "info": {
@@ -324,7 +324,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#388e3c",
+        "$value": "#2e7d32",
         "$collectionName": "theme-sunset"
       },
       "spacing-unit": {
@@ -332,7 +332,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 12,
         "$collectionName": "theme-sunset"
       },
       "border-radius": {
@@ -340,7 +340,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 12,
+        "$value": 8,
         "$collectionName": "theme-sunset"
       }
     },
@@ -350,7 +350,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ff8c61",
+        "$value": "#ff8a65",
         "$collectionName": "theme-sunset"
       },
       "primary-contrast": {
@@ -358,7 +358,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#1a0800",
+        "$value": "#000000",
         "$collectionName": "theme-sunset"
       },
       "secondary": {
@@ -366,7 +366,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ffb84d",
+        "$value": "#ffb74d",
         "$collectionName": "theme-sunset"
       },
       "secondary-contrast": {
@@ -374,7 +374,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#1a0f00",
+        "$value": "#000000",
         "$collectionName": "theme-sunset"
       },
       "background-default": {
@@ -382,7 +382,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#1a0f00",
+        "$value": "#1a0f0a",
         "$collectionName": "theme-sunset"
       },
       "background-paper": {
@@ -390,7 +390,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#2d1b00",
+        "$value": "#2d1b13",
         "$collectionName": "theme-sunset"
       },
       "text-primary": {
@@ -398,7 +398,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#fff8f0",
+        "$value": "#fff3e0",
         "$collectionName": "theme-sunset"
       },
       "text-secondary": {
@@ -406,7 +406,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#d4b896",
+        "$value": "#bcaaa4",
         "$collectionName": "theme-sunset"
       },
       "error": {
@@ -422,7 +422,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ff9800",
+        "$value": "#ffca28",
         "$collectionName": "theme-sunset"
       },
       "info": {
@@ -430,7 +430,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#03a9f4",
+        "$value": "#4fc3f7",
         "$collectionName": "theme-sunset"
       },
       "success": {
@@ -438,7 +438,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#4caf50",
+        "$value": "#81c784",
         "$collectionName": "theme-sunset"
       },
       "spacing-unit": {
@@ -446,7 +446,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 12,
         "$collectionName": "theme-sunset"
       },
       "border-radius": {
@@ -454,7 +454,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 12,
+        "$value": 8,
         "$collectionName": "theme-sunset"
       }
     }
@@ -466,7 +466,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#2d6a4f",
+        "$value": "#2e7d32",
         "$collectionName": "theme-forest"
       },
       "primary-contrast": {
@@ -482,7 +482,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#52b788",
+        "$value": "#558b2f",
         "$collectionName": "theme-forest"
       },
       "secondary-contrast": {
@@ -498,7 +498,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#f1f8f4",
+        "$value": "#f1f8e9",
         "$collectionName": "theme-forest"
       },
       "background-paper": {
@@ -514,7 +514,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#1b4332",
+        "$value": "#1b5e20",
         "$collectionName": "theme-forest"
       },
       "text-secondary": {
@@ -522,7 +522,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#40916c",
+        "$value": "#558b2f",
         "$collectionName": "theme-forest"
       },
       "error": {
@@ -538,7 +538,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#f57c00",
+        "$value": "#f57f17",
         "$collectionName": "theme-forest"
       },
       "info": {
@@ -546,7 +546,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#0288d1",
+        "$value": "#0277bd",
         "$collectionName": "theme-forest"
       },
       "success": {
@@ -554,7 +554,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#2e7d32",
+        "$value": "#388e3c",
         "$collectionName": "theme-forest"
       },
       "spacing-unit": {
@@ -562,7 +562,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 16,
         "$collectionName": "theme-forest"
       },
       "border-radius": {
@@ -570,7 +570,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 4,
+        "$value": 12,
         "$collectionName": "theme-forest"
       }
     },
@@ -580,7 +580,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#74c69d",
+        "$value": "#66bb6a",
         "$collectionName": "theme-forest"
       },
       "primary-contrast": {
@@ -588,7 +588,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#081c15",
+        "$value": "#000000",
         "$collectionName": "theme-forest"
       },
       "secondary": {
@@ -596,7 +596,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#95d5b2",
+        "$value": "#9ccc65",
         "$collectionName": "theme-forest"
       },
       "secondary-contrast": {
@@ -604,7 +604,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#081c15",
+        "$value": "#000000",
         "$collectionName": "theme-forest"
       },
       "background-default": {
@@ -612,7 +612,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#081c15",
+        "$value": "#0d1f0f",
         "$collectionName": "theme-forest"
       },
       "background-paper": {
@@ -620,7 +620,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#1b4332",
+        "$value": "#1b3a1f",
         "$collectionName": "theme-forest"
       },
       "text-primary": {
@@ -628,7 +628,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#d8f3dc",
+        "$value": "#e8f5e9",
         "$collectionName": "theme-forest"
       },
       "text-secondary": {
@@ -636,7 +636,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#95d5b2",
+        "$value": "#a5d6a7",
         "$collectionName": "theme-forest"
       },
       "error": {
@@ -652,7 +652,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#ff9800",
+        "$value": "#ffee58",
         "$collectionName": "theme-forest"
       },
       "info": {
@@ -660,7 +660,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#29b6f6",
+        "$value": "#4fc3f7",
         "$collectionName": "theme-forest"
       },
       "success": {
@@ -668,7 +668,7 @@
           "ALL_SCOPES"
         ],
         "$type": "color",
-        "$value": "#66bb6a",
+        "$value": "#81c784",
         "$collectionName": "theme-forest"
       },
       "spacing-unit": {
@@ -676,7 +676,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 8,
+        "$value": 16,
         "$collectionName": "theme-forest"
       },
       "border-radius": {
@@ -684,7 +684,7 @@
           "ALL_SCOPES"
         ],
         "$type": "dimension",
-        "$value": 4,
+        "$value": 12,
         "$collectionName": "theme-forest"
       }
     }

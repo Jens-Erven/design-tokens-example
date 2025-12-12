@@ -3,3 +3,153 @@
 
 /* Import Tailwind CSS */
 @import './dist/figma-variables/tailwind/app.css';
+
+/* Custom theme-aware utilities for Material-UI components */
+/* These directly use your design tokens (--primary, --secondary, etc.) */
+@layer utilities {
+  /* Background colors - Use your theme tokens directly */
+  .bg-primary {
+    background-color: var(--primary) !important;
+  }
+  .bg-secondary {
+    background-color: var(--secondary) !important;
+  }
+  .bg-error {
+    background-color: var(--error) !important;
+  }
+  .bg-warning {
+    background-color: var(--warning) !important;
+  }
+  .bg-info {
+    background-color: var(--info) !important;
+  }
+  .bg-success {
+    background-color: var(--success) !important;
+  }
+  .bg-default {
+    background-color: var(--background-default) !important;
+  }
+  .bg-paper {
+    background-color: var(--background-paper) !important;
+  }
+
+  /* Text colors - Use your theme tokens directly */
+  .text-primary {
+    color: var(--text-primary) !important;
+  }
+  .text-secondary {
+    color: var(--text-secondary) !important;
+  }
+  .text-primary-contrast {
+    color: var(--primary-contrast) !important;
+  }
+  .text-secondary-contrast {
+    color: var(--secondary-contrast) !important;
+  }
+  .text-error {
+    color: var(--error) !important;
+  }
+  .text-warning {
+    color: var(--warning) !important;
+  }
+  .text-info {
+    color: var(--info) !important;
+  }
+  .text-success {
+    color: var(--success) !important;
+  }
+
+  /* Border colors - Use your theme tokens directly */
+  .border-primary {
+    border-color: var(--primary) !important;
+  }
+  .border-secondary {
+    border-color: var(--secondary) !important;
+  }
+  .border-error {
+    border-color: var(--error) !important;
+  }
+  .border-warning {
+    border-color: var(--warning) !important;
+  }
+  .border-info {
+    border-color: var(--info) !important;
+  }
+  .border-success {
+    border-color: var(--success) !important;
+  }
+
+  /* Spacing utilities - Use your theme tokens directly */
+  .p-unit {
+    padding: var(--spacing-unit) !important;
+  }
+  .px-unit {
+    padding-left: var(--spacing-unit) !important;
+    padding-right: var(--spacing-unit) !important;
+  }
+  .py-unit {
+    padding-top: var(--spacing-unit) !important;
+    padding-bottom: var(--spacing-unit) !important;
+  }
+  .pt-unit {
+    padding-top: var(--spacing-unit) !important;
+  }
+  .pr-unit {
+    padding-right: var(--spacing-unit) !important;
+  }
+  .pb-unit {
+    padding-bottom: var(--spacing-unit) !important;
+  }
+  .pl-unit {
+    padding-left: var(--spacing-unit) !important;
+  }
+
+  .m-unit {
+    margin: var(--spacing-unit) !important;
+  }
+  .mx-unit {
+    margin-left: var(--spacing-unit) !important;
+    margin-right: var(--spacing-unit) !important;
+  }
+  .my-unit {
+    margin-top: var(--spacing-unit) !important;
+    margin-bottom: var(--spacing-unit) !important;
+  }
+  .mt-unit {
+    margin-top: var(--spacing-unit) !important;
+  }
+  .mr-unit {
+    margin-right: var(--spacing-unit) !important;
+  }
+  .mb-unit {
+    margin-bottom: var(--spacing-unit) !important;
+  }
+  .ml-unit {
+    margin-left: var(--spacing-unit) !important;
+  }
+
+  .gap-unit {
+    gap: var(--spacing-unit) !important;
+  }
+
+  /* Border radius - Use your theme tokens directly */
+  .rounded {
+    border-radius: var(--border-radius) !important;
+  }
+  .rounded-t {
+    border-top-left-radius: var(--border-radius) !important;
+    border-top-right-radius: var(--border-radius) !important;
+  }
+  .rounded-r {
+    border-top-right-radius: var(--border-radius) !important;
+    border-bottom-right-radius: var(--border-radius) !important;
+  }
+  .rounded-b {
+    border-bottom-left-radius: var(--border-radius) !important;
+    border-bottom-right-radius: var(--border-radius) !important;
+  }
+  .rounded-l {
+    border-top-left-radius: var(--border-radius) !important;
+    border-bottom-left-radius: var(--border-radius) !important;
+  }
+}
